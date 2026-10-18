@@ -1,0 +1,25 @@
+flowchart LR
+  Employee -->|MEMBER_OF| Team
+  Employee -->|OWNS| Project
+  Employee -->|ASSIGNED_TO| Task
+  Employee -->|COLLABORATES_WITH| Employee
+  Team -->|SUPPORTS| Project
+  Project -->|HAS_TASK| Task
+  Task -->|DEPENDS_ON| Task
+  Project -->|HAS_DECISION| Decision
+  Meeting -->|RECORDED_DECISION| Decision
+  Decision -->|DOCUMENTED_IN| Document
+  Project -->|DOCUMENTED_IN| Document
+  Policy -->|DOCUMENTED_IN| Document
+  Project -->|RELATED_TO| Project
+  Document -->|HAS_CHUNK| DocumentChunk
+
+  Employee["Employee\nid, name, role, email, location"]
+  Team["Team\nid, name, description"]
+  Project["Project\nid, name, status, priority, description, dueDate"]
+  Task["Task\nid, title, status, priority, dueDate, description"]
+  Meeting["Meeting\nid, title, date, summary"]
+  Decision["Decision\nid, title, date, status, reason"]
+  Document["Document\nid, title, sourceType, sourceRef, filename, mimeType, sizeBytes, uploadedAt, extractedText, textLength, contentTruncated, checksum"]
+  DocumentChunk["DocumentChunk\nid, documentId, position, content"]
+  Policy["Policy\nid, name, summary, updatedAt"]
