@@ -22,7 +22,6 @@
 - [Testing and verification](#testing-and-verification)
 - [Troubleshooting](#troubleshooting)
 - [Security notes](#security-notes)
-- [Demo walkthrough](#demo-walkthrough)
 - [Project structure](#project-structure)
 
 ---
@@ -620,20 +619,6 @@ Call `/api/health`. If the database is connected but the graph is empty, run the
 - Do not expose the graph database publicly just to connect a cloud preview.
 - Review the TLS certificate verification configuration in `server/db.py` before stricter production deployment.
 
-## Demo walkthrough
-
-Record a working end-to-end demonstration, not slides alone:
-
-1. Open Company Brain and show the live dashboard.
-2. Open Knowledge Explorer and show real nodes and directed relationships.
-3. Upload a small fictional meeting note or project document.
-4. Verify the document and its chunks are stored in FalkorDB.
-5. Ask a question spanning multiple entities—for example: “Who owns Project Lighthouse, what is blocked, and which source documents support the answer?”
-6. Show the answer and its citations.
-7. Open a cited source and explain how it supports the answer.
-8. Show `/api/health` reporting a successful real database connection.
-
-Do not record a demo while the database is offline or while the app uses fabricated graph data.
 
 ## Project structure
 
