@@ -636,18 +636,6 @@ Record a working end-to-end demonstration, not slides alone:
 
 Do not record a demo while the database is offline or while the app uses fabricated graph data.
 
-## Hackathon submission checklist
-
-- [ ] Push the complete code to a **public GitHub repository**.
-- [ ] Open the repository in an incognito/private window and verify public access.
-- [ ] Provide a working end-to-end demo or video.
-- [x] Include a graph data model diagram in the README and a standalone Mermaid source.
-- [x] Document the actual Cypher queries and graph traversals used by the product.
-- [ ] Demonstrate that FalkorDB is central to retrieval, not just a graph visualization.
-- [ ] Verify local setup on a clean environment and record the results.
-- [ ] Confirm no secrets or `.env` files are committed.
-- [ ] Run Docker/Compose verification if that path is part of the submission.
-
 ## Project structure
 
 ```text
