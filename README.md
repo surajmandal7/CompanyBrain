@@ -651,13 +651,27 @@ Call `/api/health`. If the database is connected but the graph is empty, run the
 
 Some files may differ by branch. Treat the checked-out repository as the source of truth.
 
+📸 Project Screenshots
+1. Dashboard
+
+An overview of employees, projects, tasks, and company knowledge.
 
 
 <img width="1547" height="830" alt="image" src="https://github.com/user-attachments/assets/98ab445e-5991-48b7-a9c0-d766732005d6" />
+2. AI Assistant
+
+Ask natural-language questions and explore answers with supporting sources.
 
 <img width="1903" height="857" alt="image" src="https://github.com/user-attachments/assets/d00a843c-246a-4ab6-a1b0-96d2ff374c62" />
+3. Knowledge Explorer
+
+Visualizes relationships between people, teams, projects, tasks, decisions, and documents.
 
 <img width="1597" height="851" alt="image" src="https://github.com/user-attachments/assets/3fd75848-813d-4abd-aa99-63629dd02cf3" />
+
+4. Document Upload
+
+Upload company documents and process their content for knowledge retrieval.
 <img width="1577" height="822" alt="image" src="https://github.com/user-attachments/assets/71202e17-4ae8-4076-9107-e25a59334019" />
 
 
