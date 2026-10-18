@@ -23,7 +23,6 @@
 - [Troubleshooting](#troubleshooting)
 - [Security notes](#security-notes)
 - [Demo walkthrough](#demo-walkthrough)
-- [Hackathon submission checklist](#hackathon-submission-checklist)
 - [Project structure](#project-structure)
 
 ---
